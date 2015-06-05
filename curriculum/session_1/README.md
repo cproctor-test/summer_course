@@ -35,25 +35,38 @@ Today's plan
 0. Course goals and norms.
 
     - Set up computers
+    - Communication; make sure we have the right email addresses
 
-1. Review a few important Python data constructs:
+1. Review a few important Python data structures and other tidbits
 
     - lists
     - dicts
     - functions
+        - keyword arguments
+    - odds and ends
+        - string formatting
+        - documentation (docstrings and comments)
 
 1. Introduce the concept of Object-Oriented Programming.
 
     - classes, instances, methods, interfaces, variable scope
     - Python class syntax
     - a few magic methods
-    - Implement Animal subclasses with a petting zoo. 
+        - __init__
+        - __str__
+        - __repr__
+        - __cmp__
+    - Play with a few classes: Animals in the Forest
     - Design classes for a card game.
 
 Homework
 --------
 
 You should work on this for about three hours between now and Session 2. 
+
+0. Implement a few other subclasses of Animal and update `run_forest.py`
+   so that it lets them interact. See if you can create a dynamic but 
+   stable ecosystem where predators keep other populations in check.
 
 1. Write a Card class to represent a playing card. Card should pass the 
    tests in test_card.py. You can use card.py to get started. (Make sure 
@@ -63,4 +76,18 @@ You should work on this for about three hours between now and Session 2.
 2. Start working on a Deck class to represent a pile of cards. Deck should
    pass the tests in test_deck.py. You are not expected to complete Deck--
    work until you get stuck, come to Session 2 with questions.
+
+
+Coming up
+---------
+
+In the next few meetings we will be finishing the Card and Deck classes so that
+we can write programs that play card games. Remember "war", that really boring 
+card game you used to play when you were a kid? I've always wondered how long, 
+on average, it takes to finish a game. We're going to find out!
+
+By then we will be pretty comfortable desigining object-oriented solutions in 
+Python, and we will be ready to start learning Java. (Coming from Python, Java 
+might seem similar but just more irritating. We will be ready to understand why
+some of Java's differences might actually be better.)
 
